@@ -6,6 +6,8 @@
 // });
 
 
+require('appmetrics-dash').attach();
+require('appmetrics-prometheus').attach();
 const appName = require('./../package').name;
 const http = require('http');
 const express = require('express');
